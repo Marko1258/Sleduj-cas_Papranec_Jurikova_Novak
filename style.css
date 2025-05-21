@@ -10,5 +10,9 @@
     --blue-color: #56C2E6;
     --orange-color: #FF8B64;
      
-}
 
+
+}
+ * {
+    color: var(--orange-color);
+ }
