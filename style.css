@@ -15,4 +15,19 @@
     --light-purple: #bdc1ff ;
 
 }
- 
+ * {
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: var(--page-color);
+    color: var(--white-color);
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 1fr));
+    gap: 20px;
+    padding: 20px;
+}
